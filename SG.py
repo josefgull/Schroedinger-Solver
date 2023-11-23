@@ -119,12 +119,12 @@ class device:
             plt.plot(np.linspace(0,self.thikness,len(self.eigenvectors[:,i])),self.eigenvectors[:,i]**2+self.eigenvalues[i])
 
         plt.plot(np.linspace(0,self.thikness,len(self.V)),self.V)
-        plt.title(trans_frq)
+        #plt.title(trans_frq)
         plt.legend()
         plt.ylabel('Energie in [eV]') 
         plt.xlabel('länge in [m]') 
+        plt.savefig("well.png")
         plt.show()
-
 
 
 if True:
