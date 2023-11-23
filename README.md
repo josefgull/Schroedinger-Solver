@@ -1,3 +1,2 @@
-# Sr-dingerGleichung
-
-The  folloing file solves the schrödingereqution in a quantumwell
+# SchrödingerSolver
+The following python script solves the Schrödinger equation in a quantum well
